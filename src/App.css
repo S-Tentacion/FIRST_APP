@@ -1,0 +1,48 @@
+.App {
+  /* text-align: center;
+  margin: auto; */
+  width: 100%;
+}
+.mainlayout{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%,-50%);
+}
+.animation-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.animation-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+.card {
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
