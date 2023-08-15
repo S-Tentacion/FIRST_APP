@@ -26,7 +26,7 @@ function App() {
       cookies.set(DUMMY_VALUE, COOKIEPAYLOAD, {
         path: "/",
         expires: expirationDate,
-        domain: ".vercel.app",
+        domain: "https://recur-first-app.vercel.app/",
       });
     }else{
       setData(hadValueInCookies)
